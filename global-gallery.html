@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+             background-color: #450;
+             padding-top: 100px;
+
+        }
+        #gallery{
+            /*border: 1px solid black;*/
+            text-align: center;
+        }
+       img{
+           width : 240px;
+           margin-left: -182px;
+           margin-right: -182px;
+           border: 10px solid purple;
+           padding: 50px;
+           background-color: #150;
+           transition: 1s;
+       }
+       .i-1{
+           transform: rotate(25deg);
+       }
+       .i-2{
+           transform: rotate(10deg);
+       }
+       .i-3{
+           transform: rotate(-5deg);
+       }
+       .i-4{
+           transform: rotate(-20deg);
+       }
+       .i-5{
+           transform: rotate(-35deg);
+       }
+       img:hover{
+           transform: rotate(3600deg);
+           border-color: white;
+       }
+    
+    
+    
+    
+    </style>
+
+
+</head>
+<body>
+    <div id="gallery">
+        <img class="i-1"src="https://picsum.photos/id/350/300/500.webp">
+        <img class="i-2"src="https://picsum.photos/id/450/300/500.webp">
+        <img class="i-3"src="https://picsum.photos/id/550/300/500.webp">
+        <img class="i-4"rc="https://picsum.photos/id/650/300/500.webp">
+        <img class="i-5"src="https://picsum.photos/id/250/300/500.webp">
+    </div>
+    
+</body>
+</html>
