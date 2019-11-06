@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       body{
+           background-color: black;
+           padding: 0;
+           margin:0;
+           }
+       div{
+           margin-top:100px;
+           margin-left:150px;
+           width: 350px;
+          }
+       
+       li{
+           background-color: #0066CC;
+           border-color: darkblue;
+           border: 1px solid black;
+           text-decoration: none;
+           padding-bottom: 25.5px;
+           padding-top:25.5px;
+           margin-left:48px;
+           list-style: none;
+           }
+       a{
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+           color: white;
+           padding-left:10px;
+           }
+       h2{
+           background-color: #0066CC;
+           color:darkblue;
+           writing-mode: vertical-rl;
+           text-orientation: upright;
+           float:left;
+           border: 1px solid black;
+           padding-top:45px;
+           padding-bottom:52px;
+           padding-left:20px;
+           padding-right:20px;
+           }
+        li:hover{
+            background-color:darkblue;
+           }
+        .sim::after{
+            content:"\27A4";
+            color: white;
+            margin-left: 70px;
+          }
+    
+    </style>
+</head>
+
+<body>
+    <div>
+            <h2>Our Company</h2>
+        <ul>
+            <li><a href="">Services</a></li>
+            <li><a class="sim", href="">Products</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+    
+</div>
+</body>
+</html>
