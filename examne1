@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeDepot Logo</title>
+    <style>
+        /* color palette in HEX */
+        .dummy { 
+            color: #401D26; 
+            color: #07090D; 
+            color: #222C40; 
+            color: #A68C8A; 
+            color: #734D4D; 
+        }
+        body{
+            background-color: #07090D;
+            font-family: Arial;
+            margin: 0px;
+            margin-top:0px;
+        }
+        #brand{
+            background-color: #222C40;
+            width: 1440px;
+            height: 220px;
+        }
+        h2{
+            margin:0px;
+        }
+        .H{
+            display: block;
+            float:left;
+            width: 45px;
+            height: 70px;
+            border-left: 6px solid #A68C8A;
+            border-right: 6px solid #A68C8A;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        /* ??? */
+        .D{
+            display: block;
+            float:left;
+            width: 45px;
+            height: 58px;
+            margin-left: 10px;
+            margin-top: 50px;
+            border-left: 6px solid #A68C8A;
+            border-top: 6px solid #A68C8A;
+            border-bottom: 6px solid #A68C8A;
+            border-right: 6px solid #A68C8A;
+            border-radius: 0 20px 20px 0;
+        }
+        .slogan{
+            color: #734D4D;
+            font-weight: 100;
+            float:left;
+            padding-top: 7px;
+            margin-top: 130px;
+            margin-left: -124px;
+            border-top: 1px solid #A68C8A;
+            width: 1400px;
+        }
+        #brand>.logo>h2>.H>.line{
+            display: block;
+            background-color: #A68C8A;
+            width: 40px;
+            height: 6px;
+            margin-left: 5px;
+            margin-top: 30px;
+        }
+         
+    </style>
+</head>
+<body>
+
+
+    <header id="brand">
+        <div class="logo">
+            <h2>
+                <span class="H"><span class="line"></span></span>
+                <span class="D"><span class="line"></span></span>
+            </h2>
+        </div>
+        <h3 class="slogan">HomeDepot at your service!</h3>
+    </header>
+    
+    
+</body>
+</html> 
